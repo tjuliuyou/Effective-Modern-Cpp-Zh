@@ -12,13 +12,13 @@ Effective Modern C++ 中文翻译，欢迎大家提出翻译中的错误和用�
 使用gitbook作为静态编译输出，需要安装`Node.js`，然后从`npm`安装gitbook
 
 ```sh
-npm install gitbook -g
+npm install gitbook -g #可能需要安装 gitbook-cli
 ```
 
 然后git clone下来本书，然后输出静态网页，在浏览器上查看：
 
 ```sh
-git clone git@github.com:XimingCheng/Effective-Modern-Cpp-Zh.git
+git clone https://github.com/tjuliuyou/Effective-Modern-Cpp-Zh.git
 cd Effective-Modern-Cpp-Zh
 gitbook serve .
 ```
